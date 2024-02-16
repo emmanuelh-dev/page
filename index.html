@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <nav class="container mx-auto flex items-center justify-between py-4">
+      <div class="flex items-center gap-4">
+        <div>
+          <a href="https://www.uanl.mx">
+            <img
+              class="size-16"
+              src="https://www.uanl.mx/wp-content/uploads/2020/06/uanl.png"
+              alt="Universidad Autónoma de Nuevo León"
+            />
+          </a>
+        </div>
+        <div class="border-l border-black pl-4 text-xl">
+          <h1>
+            <a href="https://www.uanl.mx"
+              >UNIVERSIDAD AUTÓNOMA<br />
+              DE NUEVO LEÓN</a
+            >
+          </h1>
+        </div>
+      </div>
+      <div class="max-sm:hidden">
+        <div class="flex">
+          <!-- elementos header -->
+          <div class="flex items-center gap-4">
+            <div class="">
+              <a
+                class="flex items-center gap-4"
+                href="https://www.uanl.mx/enlinea"
+              >
+                <i class="fas fa-desktop mr10"></i>Servicios en Línea
+              </a>
+            </div>
+            <div class="border py-1 px-2">
+              <form class="buscador" action="https://www.uanl.mx/" method="GET">
+                <input type="text" name="s" placeholder="Buscar" />
+                <button type="submit" name="btn-buscar" value="">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-end gap-4 mt-2 uppercase">
+          <a
+            class="px-2 border-r border-black"
+            href="https://www.uanl.mx/alumnos/"
+            >Alumnos</a
+          >
+          <a
+            class="px-2 border-r border-black"
+            href="https://www.uanl.mx/aspirantes/"
+            >Aspirantes</a
+          >
+          <a
+            class="px-2 border-r border-black"
+            href="https://www.uanl.mx/docentes/"
+            >Docentes</a
+          >
+          <a class="px-2" href="https://www.uanl.mx/egresados/">Egresados</a>
+        </div>
+      </div>
+    </nav>
+    <div class="max-sm:hidden">
+      <div class="bg-[#16538D] text-white">
+        <div class="container mx-auto flex justify-around py-2 text-sm">
+          <a class="" href="">Inicio</a>
+          <a class="" href=""> Acerca de la UANL </a>
+          <a class="" href=""> Oferta Educativa </a>
+          <a class="" href=""> Vida Estudiantil </a>
+          <a class="" href=""> Investigación </a>
+          <a class="" href=""> Bibliotecas </a>
+          <a class="" href=""> Medios </a>
+        </div>
+      </div>
+    </div>
+    <main class="relative overflow-hidden">
+      <div
+        class="h-72 lg:h-screen w-screen bg-center bg-cover absolute inset-0"
+        style="
+          background-image: url(https://www.uanl.mx/wp-content/uploads/2019/01/fondoflama-2.jpg);
+        "
+      ></div>
+      <div class="relative mx-auto max-w-5xl mt-52 bg-[#F4F2ED]">
+        <div class="p-10">
+          <ul
+            id="breadcrumbs"
+            class="flex text-sm font-thin gap-2 py-2 lg:border-t lg:border-b"
+          >
+            <li class="item-home">
+              <a
+                class="bread-link bread-home text-blue-800"
+                href="https://www.uanl.mx"
+                title="Inicio"
+                >Inicio</a
+              >
+            </li>
+            <li class="separator separator-home">
+              <i class="fas fa-caret-right"></i>
+            </li>
+            <li class="item-cat item-custom-post-type-oferta">
+              <a
+                class="bread-cat bread-custom-post-type-oferta text-blue-800"
+                href="https://www.uanl.mx/oferta/"
+                title="Oferta educativa para Licenciatura"
+                >Oferta educativa para Licenciatura</a
+              >
+            </li>
+            <li class="separator"><i class="fas fa-caret-right"></i></li>
+          </ul>
+          <div class="lg:grid lg:grid-cols-12 gap-10">
+            <div class="col-span-8 space-y-6 py-10">
+              <h1 class="text-3xl font-semibold">
+                Ingeniero en Tecnología de Software
+              </h1>
+              <h3 class="text-sky-800 text-xl">
+                <a href="http://www.fime.uanl.mx/" target="_blank">
+                  Facultad de Ingeniería Mecánica y Eléctrica
+                </a>
+                <br />
+                <div>
+                  <p>Manuel de jesús calderon arteaga</p>
+                  <p>1730346</p>
+                  <p>gpo 614</p>
+                  <p>materia lab de programación web</p>
+                </div>
+              </h3>
+
+              <h2 class="text-3xl"> Perfil de ingreso</h2>
+              <p>
+                El aspirante al programa educativo debe cumplir con las
+                siguientes cualidades:
+              </p>
+              <p>
+                Habilidades de razonamiento lógico, solución para problemas,
+                toma de decisiones, capacidad de observación, análisis y
+                síntesis e interés por la investigación y la innovación, así
+                como deberá tener conocimiento y gusto por las ciencias exactas
+                y ciencias de la computación
+              </p>
+              <hr class="doble" />
+              <h2 class="text-3xl"> Requisitos de ingreso</h2>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <h3 class="text-xl">Académicos</h3>
+                  <p>
+                    Haber concluido satisfactoriamente el nivel medio superior o
+                    equivalente.
+                  </p>
+                  <hr class="doble" />
+                  <h3 class="text-xl">Legales</h3>
+                  <p>
+                    Los que establezca la normatividad y procedimientos vigentes
+                    de la UANL u otros en caso de que apliquen.
+                  </p>
+                  <hr class="doble" />
+                  <h3 class="text-xl">De selección</h3>
+                  <p>
+                    El estudiante deberá someterse al examen de Concurso de
+                    Ingreso establecido por la UANL.
+                  </p>
+                  <hr class="doble" />
+                  <h3 class="text-xl">Específicos del programa</h3>
+                  <p>
+                    Una vez seleccionado, el estudiante participará en el curso
+                    de inducción y curso propedéutico que se imparte en la
+                    Facultad de Ingeniería Mecánica y Eléctrica.
+                  </p>
+                </div>
+              </div>
+
+              <hr class="doble" />
+
+              <h2 class="text-3xl"> Perfil de egreso</h2>
+              <p class="text-xl"><strong>Propósito:</strong></p>
+              <p>
+                Formar profesionistas en el campo de la Ingeniería de software
+                con sólidos valores sociales, siempre tendiente a la excelencia
+                en la formación, promoviendo la investigación y el desarrollo de
+                tecnología, orientado a proveer soluciones y satisfacer los
+                requerimientos de la Industria del software a nivel Nacional e
+                Internacional.
+              </p>
+              <p>
+                Los egresados de la carrera de Ingeniero en Tecnologías de
+                Software son profesionales con una formación amplia y sólida que
+                les prepara para dirigir y realizar las tareas de todas las
+                fases del ciclo de vida del software, aplicaciones y productos
+                que resuelvan problemas de fases de cualquier ámbito de la
+                Industria, aplicando: conocimiento científico, métodos y
+                técnicas propios de la ingeniería de Software en dispositivos
+                móviles y en sistemas inteligentes.
+              </p>
+              <p class="text-xl"><strong>&nbsp;</strong></p>
+              <hr class="doble" />
+              <h2 class="text-3xl"> Competencias generales</h2>
+              <p class="text-xl"><strong>Competencias instrumentales.</strong></p>
+              <ol>
+                <li>
+                  Aplicar estrategias de aprendizaje autónomo en los diferentes
+                  niveles y campos del conocimiento que le permitan la toma de
+                  decisiones oportunas y pertinentes en los ámbitos personal,
+                  académico y profesional.
+                </li>
+                <li>
+                  Utilizar los lenguajes lógico, formal, matemático, icónico,
+                  verbal y no verbal de acuerdo a su etapa de vida, para
+                  comprender, interpretar y expresar ideas, sentimientos,
+                  teorías y corrientes de pensamiento con un enfoque ecuménico.
+                </li>
+                <li>
+                  Manejar las tecnologías de la información y la comunicación
+                  como herramienta para el acceso a la información y su
+                  transformación en conocimiento, así como para el aprendizaje y
+                  trabajo colaborativo con técnicas de vanguardia que le
+                  permitan su participación constructiva en la sociedad.
+                </li>
+                <li>
+                  Dominar su lengua materna en forma oral y escrita con
+                  corrección, relevancia, oportunidad y ética adaptando su
+                  mensaje a la situación o contexto, para la transmisión de
+                  ideas y hallazgos científicos.
+                </li>
+                <li>
+                  Emplear pensamiento lógico, crítico, creativo y propositivo
+                  para analizar fenómenos naturales y sociales que le permitan
+                  tomar decisiones pertinentes en su ámbito de influencia con
+                  responsabilidad social.
+                </li>
+                <li>
+                  Utilizar un segundo idioma, preferentemente el inglés, con
+                  claridad y corrección para comunicarse en contextos
+                  cotidianos, académicos, profesionales y científicos.
+                </li>
+                <li>
+                  Elaborar propuestas académicas y profesionales inter, multi y
+                  transdisciplinarias de acuerdo a las mejores prácticas
+                  mundiales para fomentar y consolidar el trabajo colaborativo.
+                </li>
+                <li>
+                  Utilizar los métodos y técnicas de investigación tradicionales
+                  y de vanguardia para el desarrollo de su trabajo académico, el
+                  ejercicio de su profesión y la generación de conocimientos.
+                </li>
+              </ol>
+              <p>
+                <strong
+                  >Competencias personales y de interacción social.</strong
+                >
+              </p>
+              <ol start="9">
+                <li>
+                  Mantener una actitud de compromiso y respeto hacia la
+                  diversidad de prácticas sociales y culturales que reafirman el
+                  principio de integración en el contexto local, nacional e
+                  internacional con la finalidad de promover ambientes de
+                  convivencia pacífica.
+                </li>
+                <li>
+                  Intervenir frente a los retos de la sociedad contemporánea en
+                  lo local y global con actitud crítica y compromiso humano,
+                  académico y profesional para contribuir a consolidar el
+                  bienestar general y el desarrollo sustentable.
+                </li>
+                <li>
+                  Practicar los valores promovidos por la UANL: verdad, equidad,
+                  honestidad, libertad, solidaridad, respeto a la vida y a los
+                  demás, paz, respeto a la naturaleza, integridad,
+                  comportamiento ético y justicia, en su ámbito personal y
+                  profesional para contribuir a construir una sociedad
+                  sustentable.
+                </li>
+              </ol>
+              <p class="text-xl"><strong>Competencias integradoras.</strong></p>
+              <ol start="12">
+                <li>
+                  Construir propuestas innovadoras basadas en la comprensión
+                  holística de la realidad para contribuir a superar los retos
+                  del ambiente global interdependiente.
+                </li>
+                <li>
+                  Asumir el liderazgo comprometido con las necesidades sociales
+                  y profesionales para promover el cambio social pertinente.
+                </li>
+                <li>
+                  Resolver&nbsp;conflictos personales y sociales, de conformidad
+                  a técnicas específicas en el ámbito académico y de su
+                  profesión para la adecuada toma de decisiones.
+                </li>
+                <li>
+                  Lograr la adaptabilidad que requieren los ambientes sociales y
+                  profesionales de incertidumbre de nuestra época para crear
+                  mejores condiciones de vida.
+                </li>
+              </ol>
+              <hr class="doble" />
+              <h2 class="text-3xl"> Competencias específicas</h2>
+              <h2 class="text-3xl"> <strong>Competencias específicas de ingeniería</strong></h2>
+              <ol start="16">
+                <li>
+                  Analiza las partes de un dispositivo, equipo, sistema o
+                  proceso, estableciendo las relaciones que guardan entre sí,
+                  que le permita documentar la información obtenida en forma
+                  estructurada, ordenada y coherente, incluyendo conclusiones
+                  propias.
+                </li>
+                <li>
+                  Genera modelos en lenguaje matemático que describan el
+                  comportamiento de un sistema, fenómeno o proceso, mediante el
+                  planteamiento de hipótesis, que le permita validarlos por
+                  métodos analíticos o herramientas computacionales.
+                </li>
+                <li>
+                  Resuelve problemas de ingeniería seleccionando la metodología
+                  apropiada, aplicando modelos establecidos, basados en las
+                  ciencias básicas, verificando los resultados obtenidos con un
+                  método analítico o con el apoyo de una herramienta
+                  tecnológica, de forma que la solución sea pertinente y viable,
+                  cumpliendo con estándares de calidad y políticas de seguridad.
+                </li>
+                <li>
+                  Aplica métodos y técnicas de investigación científica y
+                  tecnológica, colaborando en grupos de generación y aplicación
+                  del conocimiento, para el desarrollo de proyectos de
+                  ingeniería.
+                </li>
+              </ol>
+              <h2 class="text-3xl"> 
+                Competencias específicas de Ingeniero en Tecnología de Software
+              </h2>
+              <ol>
+                <li>
+                  Dirigir, coordinar y llevar a cabo proyectos de desarrollo y
+                  mantenimiento de aplicaciones integradas y sistemas
+                  inteligentes, supervisando las funciones y recursos de
+                  análisis funcional, orgánico y programación, asegurando la
+                  adecuada implementación de las aplicaciones.
+                </li>
+                <li>
+                  Seleccionar e implementar las mejores prácticas de la
+                  ingeniería de software, en los proyectos de desarrollo de
+                  software en dispositivos móviles y otros.
+                </li>
+                <li>
+                  Dominar todas las etapas de la vida de un proyecto (análisis
+                  de concepción, análisis técnico, programación, pruebas,
+                  documentación y formación de usuarios).
+                </li>
+                <li>
+                  Analizar, recoger e implementar nuevas técnicas y herramientas
+                  del mercado de software sea este comercial y/o gratuito,
+                  estudiando su viabilidad de aplicación en los proyectos.
+                </li>
+                <li>
+                  Mantenerse al día en Técnicas, Métodos y Herramientas de
+                  Análisis y Diseño, que le permita desarrollar soluciones
+                  innovadoras de la Tecnología de Información y Software.
+                </li>
+              </ol>
+              <hr class="doble" />
+              <h2 class="text-3xl"> Campo laboral</h2>
+              <table width="100%" class="table">
+                <tbody>
+                  <tr>
+                    <td width="21%">Áreas</td>
+                    <td width="78%">Descripción de tareas</td>
+                  </tr>
+                  <tr>
+                    <td width="21%">
+                      Desarrollo de Tecnología de Software
+                      <p></p>
+                      <p>&nbsp;</p>
+                    </td>
+                    <td width="78%">
+                      Resuelve problemas de sistemas de software integrado,
+                      sistemas inteligentes.
+                      <p></p>
+                      <p>
+                        Resuelve problemas de software de dispositivos móviles
+                        de calidad.
+                      </p>
+                      <p>
+                        Resuelve problemas aplicaciones innovadoras de la
+                        Tecnología de Información.
+                      </p>
+                      <p>
+                        Diseña y/o desarrolla sistemas de software integrado,
+                        sistemas inteligentes.
+                      </p>
+                      <p>
+                        Diseña y/o desarrolla software de dispositivos móviles
+                        de calidad.
+                      </p>
+                      <p>
+                        Diseña y/o desarrolla aplicaciones innovadoras de la
+                        Tecnología de Información.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr class="doble" />
+
+              <h2 class="text-3xl"> Requisitos de egreso</h2>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <h3 class="text-xl">Académicos</h3>
+                  <p>
+                    Cumplir con los 220 créditos totales del programa educativo.
+                  </p>
+                  <p>
+                    Estudiante de tiempo completo, como mínimo de 10 semestres
+                    (5 años) y el tiempo máximo es de 20 semestres (10 años).
+                  </p>
+                  <p>Haber cumplido con el Servicio Social obligatorio.</p>
+                  <p>
+                    Demostrar la competencia en el dominio de un segundo idioma,
+                    además del español.
+                  </p>
+                  <hr class="doble" />
+                  <h3 class="text-xl">Legales</h3>
+                  <p>
+                    Los que establezca la normatividad y procedimientos vigentes
+                    de la UANL.
+                  </p>
+                  <hr class="doble" />
+                  <h3 class="text-xl">Específicos del programa</h3>
+                  <p></p>
+                  <p>
+                    Acudir a la Coordinación de Servicio Social y Empresarial de
+                    la Facultad de Ingeniería Mecánica y Eléctrica a llenar la
+                    encuesta de "Seguimiento de Egresados" y Solicitud de bolsa
+                    de Trabajo.  
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+              <hr class="doble" />
+
+              <h2 class="text-3xl"> Evaluación / Acreditación</h2>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <h5 class="mb20"><b>Nacional</b></h5>
+                  <h3 class="text-xl">Nombre de la acreditación</h3>
+                  <p>
+                    Acreditación por organismos reconocidos por el Consejo para
+                    la Acreditación de la Educación Superior, A.C. (COPAES)
+                  </p>
+                  <br />
+                  <h3 class="text-xl">Nombre del organismo evaluador / acreditador</h3>
+                  <p>
+                    Consejo de Acreditación de la Enseñanza de la Ingeniería,
+                    A.C.
+                  </p>
+                  <br />
+
+                  <h3 class="text-xl">Siglas del organismo evaluador / acreditador</h3>
+                  <p>CACEI</p>
+                  <a target="_blank" href="http://cacei.org.mx/"
+                    >http://cacei.org.mx/</a
+                  >
+                  <br />
+                  <br />
+                  <h3 class="text-xl">Vigencia de la evaluación / acreditación</h3>
+                  <p>Diciembre 2025</p>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <h5 class="mb20"><b>Internacional</b></h5>
+                  <h3 class="text-xl">Nombre de la acreditación</h3>
+                  <p>Accreditation Board of Engineering and Technology</p>
+                  <br />
+                  <h3 class="text-xl">Nombre del organismo evaluador / acreditador</h3>
+                  <p>
+                    Bachelor of Software Technology Engineering program is
+                    accredited by the Engineering Accreditation Commission of
+                    ABET
+                  </p>
+                  <br />
+
+                  <h3 class="text-xl">Siglas del organismo evaluador / acreditador</h3>
+                  <p>ABET</p>
+                  <a target="_blank" href="https://www.abet.org/"
+                    >https://www.abet.org/</a
+                  >
+                  <br />
+                  <br />
+                </div>
+              </div>
+              <!-- added -->
+              <hr class="doble" />
+              <!-- added -->
+
+              <div id="google-maps-iframe">
+                <h2 class="text-3xl"> Ubicación</h2>
+                <p>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.3781897702015!2d-100.31560468456506!3d25.725004116396057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629452551ea79f%3A0x66e03550ec5730cb!2sFacultad%20de%20Ingenier%C3%ADa%20Mec%C3%A1nica%20y%20El%C3%A9ctrica!5e0!3m2!1ses-419!2smx!4v1574268881364!5m2!1ses-419!2smx"
+                    width="600"
+                    height="450"
+                    frameborder="0"
+                    style="border: 0"
+                    allowfullscreen=""
+                  ></iframe>
+                </p>
+                <hr class="doble" />
+              </div>
+
+              <!-- added -->
+              <h3 class="text-xl">Fecha de aprobación del H. Consejo Universitario</h3>
+              20 marzo 2013
+              <hr class="doble" />
+              <!-- added -->
+
+              <!-- Autor -->
+
+              <div class="autor">
+                <p>
+                  <b>Responsable:</b>
+                  <span>Dirección del Sistema de Estudios de Licenciatura</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-span-4 py-10">
+              <div class="space-y-6">
+                <!-- Modulo Destacado -->
+
+                <!-- Navegación interna -->
+                <div>
+                  <a
+                    href="http://www.fime.uanl.mx/"
+                    class="bg-[#004A8F] py-2 px-4 text-white block text-center uppercase"
+                    target="_blank"
+                    >Sitio Web de la Facultad de Ingeniería Mecánica y
+                    Eléctrica</a
+                  >
+                </div>
+                <hr class="doble" />
+                <!-- Bloque de video-->
+
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe
+                    class="embed-responsive-item"
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/XIH0BZu92uI"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""
+                  ></iframe>
+                </div>
+                <hr class="doble" />
+
+                <!--Bloque de Contacto Directo-->
+                <h3 class="text-xl">Dirección</h3>
+                <p>
+                  Av. Universidad s/n. Ciudad Universitaria San Nicolás de los
+                  Garza, Nuevo León, C.P. 66451
+                </p>
+                <hr class="doble" />
+                <h3 class="text-xl">Modalidad</h3>
+                Escolarizada
+                <hr class="doble" />
+                <h3 class="text-xl">Tipo de ingreso</h3>
+                Semestral
+                <hr class="doble" />
+                <h3 class="text-xl">Tipo de periodo académico</h3>
+                Semestral
+                <hr class="doble" />
+                <h3 class="text-xl">Duración</h3>
+                10 semestres
+                <hr class="doble" />
+                <!-- added -->
+                <h3 class="text-xl">Sede(s)</h3>
+                Campus Cd. Universitaria, San Nicolás de los Garza, N.L; Campus
+                Linares, Linares, N.L (primer semestre); Campus Sabinas Hidalgo,
+                Sabinas Hidalgo, N.L. (primeros dos semestres); Preparatoria No.
+                20, Santiago, N.L (primeros dos semestres).
+                <hr class="doble" />
+                <!-- added -->
+                <h3 class="text-xl">Tipo de Acreditación / Evaluación</h3>
+                <ul id="acreditaciones">
+                  <li>
+                    <!-- added -->
+                    <div class="contenedor-img-acreditacion">
+                      <img
+                        class="img_tipo-acreditacion-evaluacion vertical"
+                        src="https://www.uanl.mx/wp-content/uploads/2018/08/CACEI.png"
+                      />
+                    </div>
+                    <!-- added -->
+                    <a
+                      class="link_tipo-acreditacion-evaluacion"
+                      href="http://cacei.org.mx/"
+                    >
+                      Acreditación por organismos reconocidos por el Consejo
+                      para la Acreditación de la Educación Superior, A.C.
+                      (COPAES)
+                    </a>
+
+                    <div class="clearfix"></div>
+                  </li>
+                  <li>
+                    <!-- added -->
+                    <div class="contenedor-img-acreditacion">
+                      <img
+                        class="img_tipo-acreditacion-evaluacion vertical"
+                        src="https://www.uanl.mx/wp-content/uploads/2018/08/ABET.png"
+                      />
+                    </div>
+                    <!-- added -->
+                    <a
+                      class="link_tipo-acreditacion-evaluacion"
+                      href="https://www.abet.org/"
+                    >
+                      Accreditation Board of Engineering and Technology
+                    </a>
+
+                    <div class="clearfix"></div>
+                  </li>
+                </ul>
+                <hr class="doble" />
+                <h3 class="text-xl">Doble titulación</h3>
+                Instituto Nacional de Ciencias Aplicadas de Lyon e Instituto
+                Nacional de Ciencias Aplicadas de Toulouse
+                <hr class="doble" />
+                <h3 class="text-xl">Vigencia</h3>
+                A partir del 3 de Agosto de 2009.
+                <hr class="doble" />
+                <h3 class="text-xl">Correo electrónico</h3>
+                <p>
+                  <a href="mailto:contacto@fime.uanl.mx" target="_blank"
+                    >contacto@fime.uanl.mx</a
+                  >
+                </p>
+                <hr class="doble" />
+                <div id="phone">
+                  <h3 class="text-xl">Teléfono</h3>
+                  +52 (81)83-29- 4020<br />
+                  <hr class="doble" />
+                </div>
+
+                <h3 class="text-xl">Documentos relacionados</h3>
+                <ul class="listado-documentos-relacionados">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.uanl.mx/wp-content/uploads/2018/08/Ing_TecnologiaSoftware-Plan-de-estudios.pdf"
+                      >Plan de Estudios</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.uanl.mx/wp-content/uploads/2018/08/OK_Ing_Tecnologia_Software_Malla_curricular.pdf"
+                      >Malla Curricular</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.uanl.mx/wp-content/uploads/2018/08/Ing_TecnologiaSoftware-Unidades-de-aprendizaje-optativas.pdf"
+                      >Unidades de Aprendizaje Optativas</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.uanl.mx/wp-content/uploads/2018/08/Competencias-ABET_Ingeniero-en-Tecnologia-de-Software-1.pdf"
+                      >Competencias ABET</a
+                    >
+                  </li>
+                </ul>
+                <hr class="doble" />
+
+                <h3 class="text-xl">Enlaces relacionados</h3>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.uanl.mx/tramites/concurso-de-ingreso-a-licenciatura/"
+                      >Concurso de Ingreso a Licenciatura</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://www.fime.uanl.mx/acreditacion-its/"
+                      >Ingeniero en Tecnologías de Software</a
+                    >
+                  </li>
+                </ul>
+                <hr class="doble" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
